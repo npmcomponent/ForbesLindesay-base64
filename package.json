@@ -1,26 +1,10 @@
 {
-  "name": "base64",
-  "version": "1.0.1",
+  "name": "forbeslindesay-base64",
   "description": "base64 encode/decode in JavaScript",
-  "main": "./server.js",
-  "browser": "./index.js",
-  "scripts": {
-    "test": "component-install && component-build && mocha test/travis.js -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ForbesLindesay/base64.git"
-  },
-  "author": "ForbesLindesay",
-  "license": "MIT",
-  "devDependencies": {
-    "component": "*",
-    "mocha": "*",
-    "better-assert": "*"
-  },
-  "private": true,
+  "version": "1.0.1",
+  "keywords": [],
   "dependencies": {
-    "base64-decode": "~1.0.2",
-    "base64-encode": "~1.0.1"
+    "ForbesLindesay-base64-encode": "git://github.com/npmcomponent/ForbesLindesay-base64-encode.git",
+    "ForbesLindesay-base64-decode": "git://github.com/npmcomponent/ForbesLindesay-base64-decode.git"
   }
 }

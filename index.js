@@ -1,2 +1,2 @@
-exports.encode = require('base64-encode');
-exports.decode = require('base64-decode');
+exports.encode = require('ForbesLindesay-base64-encode');
+exports.decode = require('ForbesLindesay-base64-decode');
